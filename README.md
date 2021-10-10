@@ -9,8 +9,10 @@ If you have any corrections, suggestions, or information about this topic, feel 
 saulodetp@gmail.com
 
 
-#Lizhuang Liu on Oct10,2021
-1, updated to work with the latest Linkedin webpage
-2, only save index info ( no detail )
-3, while scraping the page ( running the program, user needs to actively scroll the 'jobs-search__left_rail' widget; otherwise the program will go into section below which will sometimes cause the whole program fail ( workaround is to set a breakpoint at line
+#Lizhuang Liu on Oct10,2021:  
+  Forked from repo with the same name, hence kept the original description
+  The results (\*.csv) are all jobs that listed by semiconductor companies and related to Version Control tools
+  1, updated to work with the latest Linkedin webpage
+  2, only save index info ( no detail )
+  3, while scraping the page ( running the program, user needs to actively scroll the 'jobs-search__left_rail' widget; otherwise the program will go into section below which will sometimes cause the whole program fail ( workaround is to set a breakpoint at line  
    job_summary = job.text.split('\n')
