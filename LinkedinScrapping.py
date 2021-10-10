@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 
 # Variables
 # Linkedin ID and PASSWORD
-email = "cloudliu01@hotmail.com"
-password = "Cloud003"
+email = "cxxxxxxxx01@xxxxxxx.com"
+password = "xxxxxxx"
 
 # Write here the job position and local for search
 #position = "designsync"
